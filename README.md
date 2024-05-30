@@ -1,15 +1,17 @@
 # Monte Carlo simulation of interferometric measurement and wavefront shaping under influence of shot noise and camera noise 
 # Abstract
 Interferometry often serves as an essential building block of wavefront shaping systems to obtain optimal wavefront solutions. In this tutorial, we provide a Monte Carlo simulation tool to calculate the accuracy of interferometric measurement and its impact on wavefront shaping in the context of focusing through disordered media. In particular, we have focused on evaluating wavefront shaping fidelity under the influence of shot noise with practical considerations on the operation of digtial image sensors, including read-out and dark current noises, and digitization with finite bit-detph. Based on some exemplary simulation results, we provide practical guidance for setting up an interferometric measurement system for wavefront shaping applications.
-# Overview
-
+# Overview   
+(./library/images/Figure2_0530.png)
     ├── library                              # Function library 
     │   ├── Interferometry                   # Interferometric wavefront measurement module
-    │     ├── Initialize                     # Interferometric wavefront measurement module
-    │     ├── Phase-shifitng interferometry  # Interferometric wavefront measurement module
+    │     ├── Initialize                     # Initialize structures (e.g. Graphic, Photon number, Camera operation, SLM operation mode)
+    │     ├── Phase-shifitng interferometry  # Phase-shifting interferometry
     │   ├── Wavefront_shaping                # Wavefront shaping module
-    │   └── Make_figure                      # Functions for draw each figure in pape
+    │   └── Make_figure                      # Functions for draw each figure in paper
     └── README.md
+
+    
 # Getting started 
 ## 1) Clone the repository
 ```

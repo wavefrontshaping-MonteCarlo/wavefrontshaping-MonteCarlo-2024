@@ -22,4 +22,4 @@ cd interferometic-measurement-wavefrontshaping-fidelity-under-noises
 ```
 ## 2) Run the scripts
 Each matlab files reproduce the figure of the paper.
-
+![Figure2_0530](https://github.com/wavefrontshaping-MonteCarlo/tutorial_interferometry_fidelity_noises/assets/168101179/218c94a5-e680-4387-a98a-5fc08798f3e9)

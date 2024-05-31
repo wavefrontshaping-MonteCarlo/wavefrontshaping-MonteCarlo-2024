@@ -38,7 +38,7 @@ Wavefront_shaping folder contains the functions corresponding to the Wavefront s
 # Getting started 
 ## 1) Clone the repository
 ```
-git clone https://github.com/wavefrontshaping-MonteCarlo/tutorial_interferometry_fidelity_noises.git
+git clone https://github.com/wavefrontshaping-MonteCarlo/wavefrontshaping-MonteCarlo-2024.git
 cd tutorial_interferometry_fidelity_noises/
 
 ```

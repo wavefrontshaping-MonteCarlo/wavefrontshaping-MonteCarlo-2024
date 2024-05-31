@@ -2,7 +2,7 @@
 # Abstract
 Interferometry often serves as an essential building block of wavefront shaping systems to obtain optimal wavefront solutions. In this tutorial, we provide a Monte Carlo simulation tool to calculate the accuracy of interferometric measurement and its impact on wavefront shaping in the context of focusing through disordered media. In particular, we have focused on evaluating wavefront shaping fidelity under the influence of shot noise with practical considerations on the operation of digtial image sensors, including read-out and dark current noises, and digitization with finite bit-detph. Based on some exemplary simulation results, we provide practical guidance for setting up an interferometric measurement system for wavefront shaping applications.
 
-![flowchart](./library/images/Figure2_0530.png)
+![flowchart](https://github.com/wavefrontshaping-MonteCarlo/tutorial_interferometry_fidelity_noises/blob/main/library/images/Figure2_0530.png)
 
 # Overview   
     ├── library                              # Function library 

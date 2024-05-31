@@ -29,7 +29,7 @@ Interferometry folder contains the functions required for the 'Interferometric w
 - Reconstruct_signal_field
 - Phase_error_distribution_graph
   
-Wavefront Shaping folder contains the functions corresponding to the Wavefront Shaping module, excluding any functions that are duplicated in the Interferometric Wavefront Measurement module."
+Wavefront_shaping folder contains the functions corresponding to the Wavefront shaping module, excluding any functions that are duplicated in the Interferometric Wavefront Measurement module.
 - Calculate enhancement
 - Calculate_unoptimized_field
 - Enhancement_graph 

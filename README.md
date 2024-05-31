@@ -10,16 +10,36 @@ Interferometry often serves as an essential building block of wavefront shaping 
     │     ├── Initialize                     # Initialize structures (e.g. Graphic, Photon number, Camera operation, SLM operation mode)
     │     ├── Phase-shifitng interferometry  # Phase-shifting interferometry
     │   ├── Wavefront_shaping                # Wavefront shaping module
-    │   └── Make_figure                      # Functions for draw each figure in paper
+    │   └── Make_figure                      # Functions to draw each figure in paper
     └── README.md
 
-    
+paper의 각 figure를 reproduce 할 수 있도록 matlab file을 업로드하였다. 각 Matlab파일은 동일한 구조로 이루어져 있다. 
+1) Initialization
+2) Main loop
+3) Draw figures and save results 
+ 
+
+Initialization에서 사용자가 원하는 파라미터를 입력하여 필요한 structure를 initialize한다. 
+Main loop는 flow chart의 순서대로 Interferometric wavefront meausrement module과 wavefront shaping module로 구성되어있다. 
+Interferometry 폴더에는 Interferometric wavefront meausrement module에 필요한 함수들이 담겨져 있다. 
+- Signal_field_generate
+- Interference_generate
+- Add_shotnoise
+- Reconstruct_signal_field
+- Phase_error_distribution_graph
+  
+Wavefront shaping 폴더에는 Wavefront shaping module에 대응되는 함수들이 담겨져 있다. Interferomteric wavefront meausurement module과 중복되는 함수는 제외하였다. 
+- Calculate enhancement
+- Calculate_unoptimized_field
+- Enhancement_graph 
+
+
 # Getting started 
 ## 1) Clone the repository
 ```
-git clone https://github.com/MonteCarlo-tutorial/interferometic-measurement-wavefrontshaping-fidelity-under-noises
+git clone https://github.com/wavefrontshaping-MonteCarlo/tutorial_interferometry_fidelity_noises.git
+cd tutorial_interferometry_fidelity_noises/
 
-cd interferometic-measurement-wavefrontshaping-fidelity-under-noises
 ```
 ## 2) Run the scripts
 Each matlab files reproduce the figure of the paper.

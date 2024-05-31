@@ -21,7 +21,7 @@ I have uploaded Matlab files to reproduce each figure from the paper. Each Matla
  
 
 In the Initilization section, the user inputs the paramters and those are packed into the structures which will be used in the Main loop.
-Main loop is composed of the 'Interferometric Wavefront Measure modul'e and the 'Wavefront Shaping module', following the sequence of the flow chart.
+Main loop is composed of the 'Interferometric Wavefront Measure module' and the 'Wavefront Shaping module', following the sequence of the flow chart.
 Interferometry folder contains the functions required for the 'Interferometric wavefront measurement module'.
 - Signal_field_generate
 - Interference_generate

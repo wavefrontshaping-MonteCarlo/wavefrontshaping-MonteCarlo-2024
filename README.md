@@ -13,22 +13,23 @@ Interferometry often serves as an essential building block of wavefront shaping 
     │   └── Make_figure                      # Functions to draw each figure in paper
     └── README.md
 
-paper의 각 figure를 reproduce 할 수 있도록 matlab file을 업로드하였다. 각 Matlab파일은 동일한 구조로 이루어져 있다. 
+I have uploaded Matlab files to reproduce each figure from the paper. Each Matlab file is structured in the same way, consisting of the following three parts.
+
 1) Initialization
 2) Main loop
 3) Draw figures and save results 
  
 
-Initialization에서 사용자가 원하는 파라미터를 입력하여 필요한 structure를 initialize한다. 
-Main loop는 flow chart의 순서대로 Interferometric wavefront meausrement module과 wavefront shaping module로 구성되어있다. 
-Interferometry 폴더에는 Interferometric wavefront meausrement module에 필요한 함수들이 담겨져 있다. 
+In the Initilization section, the user inputs the paramters and those are packed into the structures which will be used in the Main loop.
+Main loop is composed of the 'Interferometric Wavefront Measure modul'e and the 'Wavefront Shaping module', following the sequence of the flow chart.
+Interferometry folder contains the functions required for the 'Interferometric wavefront measurement module'.
 - Signal_field_generate
 - Interference_generate
 - Add_shotnoise
 - Reconstruct_signal_field
 - Phase_error_distribution_graph
   
-Wavefront shaping 폴더에는 Wavefront shaping module에 대응되는 함수들이 담겨져 있다. Interferomteric wavefront meausurement module과 중복되는 함수는 제외하였다. 
+Wavefront Shaping folder contains the functions corresponding to the Wavefront Shaping module, excluding any functions that are duplicated in the Interferometric Wavefront Measurement module."
 - Calculate enhancement
 - Calculate_unoptimized_field
 - Enhancement_graph 

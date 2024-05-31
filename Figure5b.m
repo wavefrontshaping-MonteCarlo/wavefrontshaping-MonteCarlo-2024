@@ -2,6 +2,7 @@
 clear; close all;
 addpath(genpath('./library'))
 
+%% Initialization
 %% Grapical parameter 
 % Number of bins for drawing probability density function (PDF) of phase measurement error
 NumBins=301;
@@ -143,6 +144,7 @@ for repetition = 1:10
     end
     close all;
 end
+%% Draw figures and save results 
 %% Figure 5.b
 enhancement_option_ens = reshape(mean(enhancement_option_rot,1) , size(ref_photon_num_list,2) , size(signal_photon_num_list,2),  size(Camera.Bitdepth_list,2),size(Camera.Noise_list,2),size(option_list,2), []) ;
 h3=Make_figure_5(photonpars, graphicpars, Camera, option_list,enhancement_option_ens);   

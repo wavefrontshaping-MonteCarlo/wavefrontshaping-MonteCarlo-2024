@@ -10,13 +10,14 @@ Interferometry often serves as an essential building block of wavefront shaping 
     │     ├── Initialize                     # Initialize structures (e.g. Graphic, Photon number, Camera operation, SLM operation mode)
     │     ├── Phase-shifitng interferometry  # Phase-shifting interferometry
     │   ├── Wavefront_shaping                # Wavefront shaping module
-    │   └── Make_figure                      # Functions for draw each figure in paper
+    │   └── Make_figure                      # Functions to draw each figure in paper
     └── README.md
 
-paper의 각 figure를 reproduce 할 수 있도록 matlab file을 업로드하였다. 각 파일은 동일한 구조로 이루어져 있다. 
+paper의 각 figure를 reproduce 할 수 있도록 matlab file을 업로드하였다. 각 Matlab파일은 동일한 구조로 이루어져 있다. 
 1) Initialization
 2) Main loop
-3) save 
+3) Draw figures and save results 
+ 
 
 Initialization에서 사용자가 원하는 파라미터를 입력하여 필요한 structure를 initialize한다. 
 Main loop는 flow chart의 순서대로 Interferometric wavefront meausrement module과 wavefront shaping module로 구성되어있다. 

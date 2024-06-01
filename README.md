@@ -10,8 +10,8 @@ Interferometry often serves as an essential building block of wavefront shaping 
     │   ├── Wavefront_shaping                # Wavefront shaping module
     │   └── Make_figure                      # Functions to draw each figure in paper
     └── README.md
-![Figure2_0530](https://github.com/wavefrontshaping-MonteCarlo/tutorial_interferometry_fidelity_noises/assets/168101179/218c94a5-e680-4387-a98a-5fc08798f3e9)
-
+%![Figure2_0530](https://github.com/wavefrontshaping-MonteCarlo/tutorial_interferometry_fidelity_noises/assets/168101179/218c94a5-e680-4387-a98a-5fc08798f3e9)
+![Figure2_0530](./library/images/)
 I have uploaded Matlab files to reproduce each figure from the paper. Each Matlab file is structured in the same way, consisting of the following three parts.
 
 1) Initialization

@@ -120,7 +120,7 @@ end
 %% Draw figures and save results 
 %% Figure 3.a
 h2 =  Make_figure_3a(photonpars,indexpars, graphicpars,Camera, valuelist_option_rot,[1 4 6 9])        
-savefig(h2,[savefol  datestr(now,'HHMMSS') '_3_enhancement_merge_ELEC' num2str(Camera.Noise_list(noise_index)) '.fig']);
+savefig(h2,[savefol  datestr(now,'HHMMSS') '_3a_ELEC' num2str(Camera.Noise_list(noise_index)) '.fig']);
    
 
 %% Figure 3.b
@@ -129,6 +129,6 @@ enhancement_option_ens = reshape(mean(enhancement_option_rot,1), size(ref_photon
        
     h3=Make_figure_3b(photonpars,indexpars, graphicpars,option, enhancement_option_ens)
 
-savefig(h3,[savefol  datestr(now,'HHMMSS') '_3_enhancement_merge_ELEC' num2str(Camera.Noise_list(noise_index)) '.fig']);
+savefig(h3,[savefol  datestr(now,'HHMMSS') '_3b_ELEC' num2str(Camera.Noise_list(noise_index)) '.fig']);
 save([savefol  datestr(now,'HHMMSS') '_3_allbit_ELEC'  '.mat'],'valuelist_option_rot','enhancement_option_rot','ref_photon_num_list','signal_photon_num_list','photonpars','M','N',  'ref_index','Camera','indexpars','graphicpars','option_list','option')
    

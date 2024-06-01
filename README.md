@@ -10,7 +10,7 @@ Interferometry often serves as an essential building block of wavefront shaping 
     │   ├── Wavefront_shaping                # Wavefront shaping module
     │   └── Make_figure                      # Functions to draw each figure in paper
     └── README.md
-![Figure2_0530](./library/Flow_chart.png)
+![Figure2_0531](https://github.com/wavefrontshaping-MonteCarlo/wavefrontshaping-MonteCarlo-2024/assets/168101179/64aa346d-9b78-452c-88ac-086c96381623)
 I have uploaded Matlab files to reproduce each figure from the paper. Each Matlab file is structured in the same way, consisting of the following three parts.
 
 1) Initialization

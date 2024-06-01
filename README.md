@@ -10,7 +10,7 @@ Interferometry often serves as an essential building block of wavefront shaping 
     │   ├── Wavefront_shaping                # Wavefront shaping module
     │   └── Make_figure                      # Functions to draw each figure in paper
     └── README.md
-![Figure2_0530](../library/Flow_chart.png)
+![Figure2_0530](./library/Flow_chart.png)
 I have uploaded Matlab files to reproduce each figure from the paper. Each Matlab file is structured in the same way, consisting of the following three parts.
 
 1) Initialization

@@ -42,7 +42,7 @@ cd wavefrontshaping-MonteCarlo-2024/
 ```
 ## 2) Run the scripts
 Each matlab files reproduce the figure of the paper.
-“Main_ShotNoiseEffect.m”: Ready-to-run code to generate the phase error distribution and the associated enhancement ratio under the effects of shot noise, without camera noises as demonstrated in Figure 3."
-“Main_StochasticCameraNoise.m”: Ready-to-run code to generate Figure 4 under the effects of shot noise and stochastic camera noises, without digitization errors.
-“Main_DigitizationEffect.m”: Ready-to-run code to generate Figure 5 under the effects of shot noise, stochastic camera noises, and digitization errors.
+- “Main_ShotNoiseEffect.m”: Ready-to-run code to generate the phase error distribution and the associated enhancement ratio under the effects of shot noise, without camera noises as demonstrated in Figure 3."
+- “Main_StochasticCameraNoise.m”: Ready-to-run code to generate Figure 4 under the effects of shot noise and stochastic camera noises, without digitization errors.
+- “Main_DigitizationEffect.m”: Ready-to-run code to generate Figure 5 under the effects of shot noise, stochastic camera noises, and digitization errors.
 
